@@ -1,0 +1,36 @@
+/*=======================TAG SELECTORS========================= */
+
+body {
+  background-color: #A2DBFA
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted #FFC947;
+  height: 0;
+  align-self: center;
+  width: 10%;
+}
+
+h1 {
+  color: #04009A;
+}
+
+h1:hover { /* On hover effect */
+  color: #FFC947;
+}
+
+h3 {
+  color: #185ADB;
+}
+/*=======================CLASS SELECTORS========================= */
+
+.master {
+  color: red;
+}
+
+/*=======================ID SELECTORS========================= */
+
+#green {
+  color: green;
+}
