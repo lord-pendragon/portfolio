@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <div class="buttons">
+            <button onclick="rollDie(2)">Roll 2 sided die</button>
+            <button onclick="rollDie(3)">Roll 3 sided die</button>
+            <button onclick="rollDie(4)">Roll 4 sided die</button>
+            <button onclick="rollDie(5)">Roll 5 sided die</button>
+            <button onclick="rollDie(6)">Roll 6 sided die</button>
+            <button onclick="rollDie(7)">Roll 7 sided die</button>
+            <button onclick="rollDie(8)">Roll 8 sided die</button>
+            <button onclick="rollDie(9)">Roll 9 sided die</button>
+            <button onclick="rollDie(10)">Roll 10 sided die</button>
+        </div>
+        <div class="custom-die">
+            <input type="number" id="customDie" placeholder="Enter number of sides">
+            <button onclick="rollCustomDie()">Roll X sided die</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
